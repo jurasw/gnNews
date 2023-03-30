@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import axios from 'axios';
 
-axios.defaults.baseURL = "https://newsapi.org/v2";
+axios.defaults.baseURL = "http://newsapi.org/v2";
 
 
 const root = ReactDOM.createRoot(
